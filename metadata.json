@@ -1,0 +1,5 @@
+{
+  "name": "Sistema de Reserva de Flota",
+  "description": "Una aplicación web interna para que los empleados de la empresa vean y reserven vehículos de la flota corporativa. Los usuarios pueden ver los autos disponibles, completar los detalles de su viaje y seleccionar fechas de un calendario.",
+  "requestFramePermissions": []
+}
