@@ -5,8 +5,8 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js';
 // Insertar credenciales directamente en el código no es seguro y no se recomienda para producción.
 // Tus claves API pueden ser vistas por cualquiera que inspeccione el código de la página web.
 // La mejor práctica es utilizar variables de entorno (Secrets).
-const supabaseUrl = "https://vkefaieebnoxepkfunnw.supabase.co";
-const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrZWZhaWVlYm5veGVwa2Z1bm53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcwODQwNDcsImV4cCI6MjA3MjY2MDA0N30.Uw8GFmctnGUhmbLB_o31v-_xFSGaUDdgQLks_si7mVY";
+const supabaseUrl = "http://supabasekong-lk4oggo0sc4c0cgocsws8kk8.200.80.204.170.sslip.io";
+const supabaseAnonKey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzdXBhYmFzZSIsImlhdCI6MTc3MTUxOTc0MCwiZXhwIjo0OTI3MTkzMzQwLCJyb2xlIjoiYW5vbiJ9.tgivz9yuZPspCdtZ2NUILQq3t95_qwebJcKjuXR5CXo";
 
 let supabase: SupabaseClient | null = null;
 let supabaseError: string | null = null;
